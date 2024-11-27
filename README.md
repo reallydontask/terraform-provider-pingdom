@@ -9,7 +9,7 @@ This supports Pingdom API v3.1: [API reference docs](https://docs.pingdom.com/ap
 ## Requirements
 
 - Terraform 0.12.x
-- Go 1.14 (to build the provider plugin)
+- Go 1.23 (to build the provider plugin)
 
 ## Usage
 
