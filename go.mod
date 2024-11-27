@@ -1,6 +1,6 @@
 module github.com/reallydontask/terraform-provider-pingdom
 
-go 1.19
+go 1.23
 
 require (
 	github.com/DrFaust92/go-pingdom v1.5.0
