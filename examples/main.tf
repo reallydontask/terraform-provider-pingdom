@@ -81,3 +81,9 @@ data "pingdom_contact" "data_contact" {
 output "test" {
   value = data.pingdom_contact.data_contact
 }
+
+data "pingdom_probe" "all" {}
+
+output "parsed_probes" {
+  value = join(",",[ for v in data.pingdom_probe.all.probes : v.ip ])
+}
