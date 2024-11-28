@@ -3,9 +3,9 @@ module github.com/reallydontask/terraform-provider-pingdom
 go 1.23
 
 require (
-	github.com/DrFaust92/go-pingdom v1.5.0
 	github.com/hashicorp/terraform-plugin-sdk/v2 v2.30.0
 	github.com/mitchellh/mapstructure v1.5.0
+	github.com/reallydontask/go-pingdom v0.0.1
 )
 
 require (
