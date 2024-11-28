@@ -19,7 +19,7 @@ Use the navigation to the left to read about the available resources.
 terraform {
   required_providers {
     pingdom = {
-      source  = "drfaust92/pingdom"
+      source  = "reallydontask/pingdom"
     }
   }
 }

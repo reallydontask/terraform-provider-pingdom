@@ -6,6 +6,8 @@ This currently only supports working with basic HTTP and ping checks.
 
 This supports Pingdom API v3.1: [API reference docs](https://docs.pingdom.com/api/)
 
+The sole purpose of this provider, note that it has been forked, is to add the ability to get a list of the probes that pingdom uses, so that the ip addresses can be added to our firewall.
+
 ## Requirements
 
 - Terraform 0.12.x
