@@ -1,9 +1,9 @@
 ---
 layout: "pingdom"
-page_title: "Bitbucket: pingdom_probe"
+page_title: "pingdom_probe"
 sidebar_current: "docs-pingdom-data-probe"
 description: |-
-  Provides a data for a Bitbucket probe
+  Provides a data for a probe
 ---
 
 # pingdom\_probe
@@ -16,7 +16,6 @@ Provides a way to fetch all probe servers.
 data "pingdom_probe" "all" {
 }
 ```
-
 
 ## Attributes Reference
 
