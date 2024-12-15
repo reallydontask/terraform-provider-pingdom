@@ -11,6 +11,8 @@ description: |-
 The Pingdom provider allows you to manage resources including checks,
 users, and teams.
 
+The sole reason for the existance of this provider is to add the ability to get a list of the probes that pingdom uses, so that the ip addresses can be added to our firewall. It is just as unmaintained as DrFaust92's, at the time of writing anyway.
+
 Use the navigation to the left to read about the available resources.
 
 ## Example Usage
